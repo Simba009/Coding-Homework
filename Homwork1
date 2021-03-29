@@ -1,0 +1,57 @@
+myname = 'simba'
+print(myname)
+
+
+print(len(myname))
+
+
+greetings = 'hello world'
+print(greetings.upper)
+
+mystring = 'be happy'
+#check = mystring.startwith('b')
+#print(check)
+
+happy = 'happy'
+learning = 'learning'
+
+keep = 'keep'
+print(keep,learning)
+
+
+string = 'working with strings'
+'''
+print(string[0,5])
+
+print(string[14,19])
+'''
+print(string.find('g'))
+
+print(string.find('w'))
+
+str1 = 'hel'
+str2 = 'lo'
+
+print(str1 + str2)
+
+
+s = "Acef$56&tY9*0"
+print(s.upper)
+
+print(s.lower)
+
+print(len(s) - s.lower - s.upper)
+
+
+
+str3 = 'car'
+str4 = 'race'
+if str3 in str4:
+  print('yes')
+
+
+o = "thecodingschool"
+t = 'th'
+j = 'ol'
+
+
