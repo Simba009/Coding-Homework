@@ -1,0 +1,17 @@
+1)alpha = '@BCD3FGHIJKLMNOPQR$TUVWXY2'
+print(alpha[0])
+print(alpha[4])
+print(alpha[-8])
+print(alpha[-1])
+
+2)keep_learning = 'keep learning'
+print(keep_learning[1,3,5,7,8,11])
+
+3)working_with_strings = 'working with strings'
+print(working_with_strings[0,4])
+
+4)print(working_with_strings[-1,-5])
+
+5)print(working_with_strings[6])
+
+6)print(working_with_strings[0])
