@@ -1,0 +1,78 @@
+1)query_basic = 'SELECT employee_id FROM employees'
+query_complex = '''SELECT employee_id, last_name FROM employees
+WHERE_city = 'Indianapolis' ORDER BY employee_id ASC'''
+print(query_basic[63])
+print(WHERE_city[63])
+print(query_complex[63])
+
+2)p = 0
+
+def first_half(s):
+  b = len(s)
+  
+  if b % 2 == 0: #even s[:]
+    p = b / 2 # nice!
+    y = s[:int(p)]
+    
+    print(y)
+
+  else: 
+    print('invalid')
+  # don't forget to return your output!
+  # after you're done, test your answers!
+first_half('hello there') # hello
+first_half('hellothere') 
+
+3)print('hello' + 'world')
+
+4) type error
+
+5)print('I AM hangray'.lower)
+
+6)yay = 'yay python'
+print (yay[-3:-1])
+
+7) it will return s
+
+8) """Starter Code"""
+msg = "k47%lub0sae\tk3&nfg"
+secret = 'snak'
+
+print(msg)
+print(secret)
+
+9)"""Starter Code"""
+
+item_descrs = ["Polkadot Dress with Bow",
+               "Jeans, Regular fit, Indigo",
+               "Infinity Scarf",
+               "Graphic Tee, Stars and Stripes",
+               "Casual Sneakers"] 
+
+
+for item_descr in item_descrs:
+    if len(item_descr) <= 15:
+        print(item_descr)
+    else:  # len(item_descr) > 1
+        item_descr = item_descr[:13].strip(' ,')
+        print(item_descr + '..')
+10)"""Starter Code"""
+
+# TODO: Write the function is_palindrome
+def is_palindrome(string):
+    last_indx = len(string) - 1
+    for i in range(len(string)):
+        if string[i] != string[last_indx - i]:
+            return False
+    # If here, string is palindrome
+    return True
+    
+is_palindrome("racecar")
+is_palindrome("kayak")
+is_palindrome("noon")
+print(is_palindrome("a"))        # True edge case: one character
+print(is_palindrome(""))         # True edge case: empty string
+print(is_palindrome("!---?"))    # False
+print(is_palindrome("abcdeba"))  # False
+print(is_palindrome("xyzwyx"))   # False
+
