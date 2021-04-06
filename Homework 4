@@ -1,0 +1,14 @@
+1) A list is a place where strings or variables are stored in. There can be multiple at one time.
+
+2) animals = ['salmon', 'tuna', 'bear', 'chicken']
+for t in range:
+  print(t)
+  
+ 3) print(t[2])
+ 
+ 4)nums_w = [0, 1, 2]
+nums_r = list(range(3))
+
+5) alpha = ['a', 'l', 'p', 'h', 'a']
+
+6) list1 = list(8)
