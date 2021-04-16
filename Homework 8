@@ -1,0 +1,28 @@
+1) index because it is more neater
+
+2)nums = list(range(8))
+if nums % 2 == 1:
+  print(nums * nums)
+  
+3)
+4)mylist = [17, 2, 9, 11, 13, 27, 4]
+if nums == 5:
+  print('yes')
+5)  favorites[index] = 'hi'
+  print(favorites[index])
+
+for element in favorites:
+  print(element)
+
+
+myList = [-3, 4.0, ":)"]
+
+# TODO: loop by index
+
+# TODO: loop by value
+
+for index in index:
+  print()
+
+
+
