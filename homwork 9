@@ -1,0 +1,48 @@
+1) myList = [-3, 4.0, ":)", ":(", ":|"]
+For i in myList:
+  print(i) 
+  
+ 2)if nums % 2 = 0:
+  print(nums + 1)
+ 
+ elif:
+  print(nums * nums)
+ 
+ 3)nums = list(range(-3,3))
+
+
+print(4 < 5)
+print(4 == 5)
+
+if 4<5: 
+  print("True")
+else:
+  print("False")
+
+if -1<0:
+  print("This is a negative number")
+else: 
+  print("This is a non-negative number")
+for b in nums:
+  if b < 0:
+    print(b*b)
+  elif b > 0:
+    print(-b)
+  else:
+    print(0)
+    
+    4)mylist = [17, 2, 9, 11, 13, 27, 4]
+    
+    for n in mylist:
+      print (n + 5) 
+      
+     5) favorites = ["money", "food", "water"]  
+val0 = money
+val1 = food
+val2 = water
+print(val0 in favorites)
+print(val1 in favorites)
+print(val2 in favorites)
+print(val0 not in favorites)
+print(val1 not in favorites)
+print(val2 not in favorites)
