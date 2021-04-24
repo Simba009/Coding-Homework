@@ -1,0 +1,41 @@
+1)myList = [10, 20, 30, -4, 4.0, ":)", ":(", ":|"]
+
+for i in myList:
+  print(i)
+  
+ for i in range(len(myList)):
+  print(myList[i])
+  
+  2) nums = list(range(10))
+for n in nums: 
+  if n % 2 == 0:
+    print(n + 1)
+  
+  else:
+    print(n * n)
+    
+   3) nums = list(range(-10,10))
+
+for b in nums:
+  if b < 0:
+    print(b*b)
+  elif b > 0:
+    print(1/b) 
+  else:
+    print(0)
+    
+   4)mylist = [17, 2, 9, 11, 13, 27, 4]
+
+for i in range(len(mylist)):
+  mylist[i] += 10
+  mylist[i] = mylist[i] + 10
+print(mylist)
+
+5)favorites = ['money','7','computer']  # TODO: fill in this list
+val0 = 'money'
+val1 = 8
+val2 = 'computer'
+print(val0 in favorites)
+print(val2 in favorites)
+print(val1 not in favorites)
+
