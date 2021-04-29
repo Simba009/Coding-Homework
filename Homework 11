@@ -1,0 +1,24 @@
+
+1) Given a list of numbers nums, print a sorted copy of the list in ascending order and another copy in descending order. Then, print the list in its original order.
+
+nums = [2, 3, 5, 1, 4]
+print(sorted(nums))
+
+2) Write two different ways to replace the list nums with a new list that is the list nums sorted ascending
+
+# First way
+nums = [2, 3, 5, 1, 4]
+# Your code here 
+nums = Sorted(nums)
+
+print(nums) # [1, 2, 3, 4, 5]
+
+
+
+# Second way
+nums = [2, 3, 5, 1, 4]
+# Your code here
+nums = nums.sorted
+
+print(nums) # [1, 2, 3, 4, 5]
+
