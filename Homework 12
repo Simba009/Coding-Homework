@@ -1,0 +1,24 @@
+Which functions modify a list in place? Which functions create a new list object?
+
+list.append() # MODIFY
+list.extend() #MODIFY
+sorted(list)  #MODIFY
+list.sort()   #MODIFY
+len(list)     #NEW LIST
+Which list does not contain the same ordered values as the others?
+(Assume each line of code is run sequentially.)
+
+list0 = [1, 2, 3, 4, 5]
+list1 = list0[:]
+list2 = sorted(list0)
+list3 = list0[-1:] + list0[:-1]
+
+
+
+Which of the following lines of code causes Python to throw an error?
+What type of error does Python throw?
+
+alpha = list("abcde")
+alpha += 'f'
+alpha = alpha + 'g'
+alpha[7] = 'h'
