@@ -8,7 +8,7 @@ len(list)     #NEW LIST
 Which list does not contain the same ordered values as the others?
 (Assume each line of code is run sequentially.)
 
-list0 = [1, 2, 3, 4, 5]
+list0 = [1, 2, 3, 4, 5y7u
 list1 = list0[:]
 list2 = sorted(list0)
 list3 = list0[-1:] + list0[:-1]
