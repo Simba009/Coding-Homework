@@ -1,0 +1,19 @@
+xlist.append()  ---> Modify list
+list.extend()   ---> Modify list 
+sorted(list)    ---> Modify list
+list.sort()     ---> Modify list 
+len(list)       ---> Creates new list
+
+Starting code below. list.append() is done for you, now use the following example to do the other functions, starting with list.extend():
+nums = [2, 4, 1, 3, 5]
+
+nums.append(7)
+print(nums)
+
+nums.extend(8)
+
+sorted(nums)
+
+nums.sort()
+
+len(nums)
