@@ -1,0 +1,34 @@
+In your own words, define a List.
+A list is a mutable place where you can sotre large amounts of variables and you can do functions to change the list
+
+Create a list called animals and add strings with the names of 4 animals of your choosing. Print the list.
+animals = ['human'] 
+animals.append('Cheeta')
+animals.append('Monkey')
+animals.append('Bear')
+animals.append('Rabbit')
+print(animals)
+
+Print the 2nd element of the list created in the above question.
+print(animals[1])
+
+Print the last element of the animals list.
+print(animals[-1])
+
+Print the first two elements of the animals list.
+print(animals[0:2])
+
+Replace the first element of the animals list with "Rhino".
+animals[0] = 'Rhino'
+
+Add one more animal to the animals list.
+animals.append('Bee')
+
+Print the length of the list.
+print(len(animals))
+
+Given a list num = [4,9,8,5,7], sort the list in ascending order.
+sorted(nums)
+
+Given a list, print the sum of all the elements in a list.
+sum(list)
