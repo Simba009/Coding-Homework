@@ -1,0 +1,21 @@
+1. Concatenate the following tuple nums with another tuple.
+nums = tuple(range(5))
+print(nums + n)
+n = tuple(range(5,7))
+2. What is an item assignment? 
+
+An item assignment is when you use = to assign a value to a variable
+
+3. Add one line of code below that concatenates and does an item assignment for the tuple sequence
+sequence = ('a', 'b', 'c')
+print(sequence + n)
+
+4. How many elements are in the following list?
+list = ['a' , ('b',), 'c', ['d'], 'e', ('f,')]
+4 elements
+
+5. In the list from question 4, write a for loop that prints the type for each element in the list.
+HINT: loop by index
+
+for n in range(len(list))
+  print(n[list])
