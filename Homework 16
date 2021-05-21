@@ -1,0 +1,32 @@
+Given the list big_pop_parks of tuples containing the park name, state, and visits per year (in millions) of the 6 most visited national parks in the United States, unpack each tuple using a for loop.
+big_pop_parks = [
+    ("Great Smoky Mountains National Park", 'NC/TN', 12.5),
+    ("Grand Canyon National Park", 'AZ', 5.97),
+    ("Rocky Mountain National Park", 'CO', 4.7),
+    ("Zion National Park", 'UT', 4.5),
+    ("Yosemite National Park", 'CA', 4.4),
+    ("Yellowstone National Park", 'ID/MT/WY', 4),
+]
+
+
+for item in enumerate(big_pop_parks):
+  o , l = item
+  print('The place', l,'has', o, 'million visitors per year')
+
+Write a function divr that returns the quotient and remainder of two arguments x, y. (That is, the result of floor division and modulo.) Your result will be a tuple where the first element is the quotient and the second element is the remainder
+
+""" Starter Code"""
+
+def divr(x, y):
+    pass
+
+print(divr(8, 2))
+print(divr(7, 3))
+print(divr(-3,4))
+
+After running the code, your console should print:
+(4, 0)
+(2, 1)
+(-1, 1)
+
+
