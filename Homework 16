@@ -16,17 +16,12 @@ for item in enumerate(big_pop_parks):
 Write a function divr that returns the quotient and remainder of two arguments x, y. (That is, the result of floor division and modulo.) Your result will be a tuple where the first element is the quotient and the second element is the remainder
 
 """ Starter Code"""
-
 def divr(x, y):
-    pass
+    print(x // y )
+    print(x % y )
 
 print(divr(8, 2))
 print(divr(7, 3))
 print(divr(-3,4))
-
-After running the code, your console should print:
-(4, 0)
-(2, 1)
-(-1, 1)
 
 
