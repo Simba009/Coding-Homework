@@ -1,0 +1,22 @@
+1. What is a stack? What are the functions that we can use on stacks, and what does each one do?
+A stack is a list but it is stacked up from top to bottom, it is a deque
+
+2. Create two nonidentical deques of your choosing. Then, using the pop() and append() functions, make it so that your deques are identical. Use the print function to show this.
+nums = deque([1,2,3,4,5,6,7])
+nums2 = deque([1,2,3,4,5])
+nums2.append(6)
+nums.pop
+
+3. Review of tuples: Given the following starter code, use slicing and other tuple operations to do the following tasks on `num_tup`:
+
+a.  Print what range is between the first and last elements of the tuple. Ex. `The range is from 4 to 10`
+b.  Print a tuple comprised of `num_tup` repeated three times.
+
+
+"""Starter Code"""
+
+num_tup = (4, 5, 7, 8, 10, 45, 50, 84)
+
+print('The range is from',num_tup[1],'to',num_tup[-1])
+num_tup3 = (num_tup, num_tup, numtup)
+print(num_tup3)
