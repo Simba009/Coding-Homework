@@ -1,0 +1,36 @@
+1. Can you explain the difference between stacks and queues? 
+Stacks are LIFO and queues are FIFO. LIFO is last in first out and fifo is first in last out.
+2. Create an empty queue.
+from queue import Queue as SimpleQueue
+
+q_empty = SimpleQueue()
+
+
+3. Create an empty stack.
+
+p = deque([])
+
+
+4. In your empty queue, push four elements in this order: Blue, Red, Yellow, Green
+q_empty.put('Blue')
+q_empty.put('Red')
+q_empty.put('Yellow')
+q_empty.put('Green')
+
+5. In your empty stack, push four elements in this order: Blue, Red, Yellow, Green
+
+p.append('Blue')
+p.append('red')
+p.append('yellow)
+p.append('green')
+
+6. Pop two elements from your queue.
+q_empty.get()
+q_empty.get()
+
+7. Pop two elements from your stack.
+p.pop()
+p.pop()
+
+8. What elements are remaining in your queue? How about in your stack? Can you explain the difference?
+queue is remaining yellow and green because it is fifo and for the stack it is blue and red because it is lifo. 
