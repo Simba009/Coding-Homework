@@ -1,0 +1,44 @@
+
+1. Starbucks is very busy in the mornings with people getting their coffees. Alex arrives at Starbucks first at 7am to order. Next, Hannah arrives at 7:02am followed by Jackie at 7:05am. At 7:10am Alex recieves his drink and leaves the store. Matt arrives at 7:11am.
+
+a. Are the customers at Starbucks LIFO or FIFO?
+FIFO because its first come first serve. They will line up in a line. 
+b. What type of data structure would best represent the flow of customers at Starbucks?
+Queues because they are FIFO and they are also first serve first come. They repersent lines. 
+c. Implement the data structure you chose to represent the situation described.
+from queue import Queue as SimpleQueue
+
+q_empty = SimpleQueue()
+q_empty.put('Alex')
+q_empty.put('Hannah')
+q_empty.put('Jackie')
+q_empty.get()
+q_empty.put('Matt')
+
+2. Kara likes to put her notebooks back into her bag when she is finished studying for that subject. First, she finishes her math homework and puts her math notebook back. Next, she completes her English assignment and puts her English notebook back inside her bag on top of her math notebook. Finally, she finishes her chemistry homework and puts that inside her bag. Unfortunately, Kara remembers she forgot to do a portion of her math homework and must take it back out of her bag.
+
+a. Are Kara's notebooks LIFO or FIFO?
+It is LIFO
+b. What type of data stucture would best model the contents of Kara's backpack?
+Stacks
+c. Implement the data structure you chose to represent the situation described.What are sets?
+from collections import deque
+p = deque([])
+p.append('Math')
+p.append('English')
+p.append('Chemistery')
+p.pop()
+
+3. What are sets? Name three properties of sets and how they are different from lists.
+Sets can contain a list
+Sets can conly contain immutable objects
+You can't index a set
+
+4. Build two equal sets...
+
+a. from a range and tuple object.
+r = set(range(9))
+t = set(0,1,2,4,5,6,7,8)
+b. from a string and list object.
+s = '0123456'
+l = ['0','1','2','3','4','5','6']
