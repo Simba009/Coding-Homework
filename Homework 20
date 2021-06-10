@@ -1,0 +1,31 @@
+1. What is an object in Python? What are some examples of objects?
+string
+tuple
+set
+list
+integer
+ect...
+2. What is the difference between .discard() and .remove() ?
+discard if there is no object it wont give you a error but for .remove it will
+
+3. Use the set s to answer the following questions:
+s = {'q', 'r', 's', 't'}
+b = {}
+Remove 'q' from the set using the safe remove function
+s.discard('q')
+Remove 'v' from the set using the safe remove function
+s.discard('v')
+Print (s)
+Remove the rest of the remaining elements at once
+s.clear()
+Check that s is equivalent to the empty set
+print(s == b )
+4. Create a set called half_alphabet_set using the string half_alphabet_string
+half_alphabet_set = {abcdefghijklm}
+5. Create a string of your favorite word that is at least 5 letters.
+f = 'money'
+6. Write a for loop that prints whether each letter in your word is in the set you created in question 4.
+for f in range:
+  b = 0
+  b = b + 1
+  print(f in half_alphabet_set[b])
