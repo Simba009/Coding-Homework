@@ -1,0 +1,4 @@
+1. Fill out the glossary of current words in our replit. Use your notes, or Google each term to find the definition of each word. Provide an example of each term in the glossary.
+2. What does it mean if two sets are disjoint? Create two sets that are disjoint and test that they are disjoint in two different ways.
+3. What is a subset? Create two sets, one of which is a subset of the other set. Test that your set is a subset in two different ways.
+4. What is a proper subset? Is your set from question 3 a proper subset? Create three sets: set_a, set_b, and set_c, where set_a is a subset of set_b and a subset of set_c, but is a proper subset only of set_c.
