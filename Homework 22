@@ -1,0 +1,28 @@
+1. Define subset. How do we get a proper subset from a subset (i.e., what other condition do we need for a subset to be a proper subset)?
+A set s is a subset of an other set if every element in s is also in the other set. Also they may have more elements than s and it still would be a subset
+2. Assume I have two sets: s and other. I don't know what's in either set, but I do know the results of the following lines of code:
+print(s <= other)
+print(s == other)
+a. What does each line of code do?
+1) see if it is a subset of other
+2) see if s is equal to other
+
+b. Do I have enough information to know if s is a proper subset of other?
+Yes, if it is equal to other then it is a proper subset of other
+
+c. What should the console print out for each of my two lines of code if s is a proper subset of other?
+True
+True 
+
+3. What is a union? Add this term to the glossary.
+4. What is an intersection? Add this term to the glossary.
+5. Create three sets via item assignment, set_a, set_b, and set_c where set_c is the union of set_a and set_b. Print a line of code that tests that set_c is the union of set_a and set_b.
+set_a = set(1,2,43,5,6,2)
+set_b = set(0,2,5,7,1,75,32,6,9)
+set_c = set(0,4,3,7,3,7,43,8,4678,9,2)
+print(set_c.union(set_a))
+print(set_c.union(set_b))
+6. Create two sets, set_d and set_e where the intersection of set_d and set_e consists of only two elements. Print a line of code that tests that the intersection of set_d and set_e is only two elements.
+set_d = set(1,2,3,4,5,6)
+set_e = set(5,6,7,8,9,10)
+print(set_d.intersection(set_e))
