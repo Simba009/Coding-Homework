@@ -1,0 +1,118 @@
+1. (8 points) Match the following operations with their equivalent descriptions:
+
+a. union  e 
+b. intersection  f 
+c. difference g
+d. symmetric difference h 
+
+e. the difference between the union and the intersection of two sets
+f. the difference between the union and symmetric difference of two sets
+g. the difference between a set and it's intersection with another set
+h. the union of the intersection and symmetric difference of two sets
+
+2. (20 points) Write your own function ispropersubset(s, other) without using the proper subset operator s < other. HINT: Remember the two conditions that we need to make a proper subset.
+ def ispropersubset(s, other):
+  #TODO: implement function
+  s = {2,3,4,5,7,78}
+  other - {2,3,4,5}
+def ispropersubest():
+  a = input('are the sets a set')
+  a1 = input('is one list equal to the other list')
+  if a = 'yes' and a1 == 'false':
+    print('yes it is a proper subset')
+    
+   else:
+    print('not valid/ not proper subset')
+
+3. (12 points)
+Replace 'set()' in the print statements below so that each print statement evaluates to True.
+'''
+
+print({'a'} - {'b'} == set(0))
+print({'a', 'b', 'c'} - {'a', 'd'} == set(1))
+print({'e', 'g', 'h'} - {'a', 'h', 'g'} == set(0))
+
+print({'a'} ^ {'b'} == set(ab))
+print({'a', 'b', 'c'} ^ {'a', 'd'} == set(abcd))
+print({'e', 'g', 'h'} ^ {'a', 'h', 'g'} == set(aegh))
+
+4. (40 points) You and a friend are packing for a picnic. You've separately been packing your picnic baskets when you realize that you're bringing too much food.
+Let's check to see which duplicate items that you and your friend may have both packed.
+
+What set operation can we use to figure out which items are duplicated in both your picnic basket and your friend's picnic basket? Create a set duplicates by using this set operation on both of the picnic baskets.
+Once you have the set of duplicates, use a for loop to go through and remove each item from one of the picnic baskets. (This way, only one of you is carrying the item.)
+Can you remove the items in such a way that you and your friend are carrying the same number of items?
+Hint: What function do we use to figure out the size of a set? Can you write an if statement that checks which picnic basket has more items and remove the item from that picnic basket?
+
+The code below is to help you get started:
+
+your_basket = {
+    "apples",
+    "crackers",
+    "bread",
+    "carrots",
+    "peanut butter",
+    "lettuce",
+    "tomato",
+    "turkey",
+    "juice"
+}
+
+friends_basket = {
+    "bread",
+    "apples",
+    "grapes",
+    "cheese",
+    "ketchup",
+    "mustard",
+    "water",
+    "crackers"
+}
+
+# create a set duplicates that has the items that are in both baskets
+basket = {    "bread",
+    "apples",
+    "grapes",
+    "cheese",
+    "ketchup",
+    "mustard",
+    "water",
+    "crackers"
+     "bread",
+    "apples",
+    "grapes",
+    "cheese",
+    "ketchup",
+    "mustard",
+    "water",
+    "crackers"    
+    "apples",
+    "crackers",
+    "bread",
+    "carrots",
+    "peanut butter",
+    "lettuce",
+    "tomato",
+    "turkey",
+    "juice"
+    "apples",
+    "crackers",
+    "bread",
+    "carrots",
+    "peanut butter",
+    "lettuce",
+    "tomato",
+    "turkey",
+    "juice"}
+print("These are the duplicate items:",basket)
+# print the set duplicates
+a = 0
+while len(your_basket) != len(friends_basket):
+  a = a+1
+  if your_basket[a] = friends_basket[a]
+    your_basket[a].remove 
+# go through each element in the set of duplicates and remove the item
+# from one of the baskets, until both baskets have the same number of items
+
+print("You now have", len(your_basket), "items in your basket.")
+print("Your friend now has", len(friends_basket), "items in their basket.")
