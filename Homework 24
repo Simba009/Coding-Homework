@@ -1,0 +1,50 @@
+# 4. (40 points) You and a friend are packing for a picnic. You've separately been packing your picnic baskets when you realize that you're bringing too much food.
+# Let's check to see which duplicate items that you and your friend may have both packed.
+
+# What set operation can we use to figure out which items are duplicated in both your picnic basket and your friend's picnic basket? Create a set duplicates by using this set operation on both of the picnic baskets.
+# Once you have the set of duplicates, use a for loop to go through and remove each item from one of the picnic baskets. (This way, only one of you is carrying the item.)
+# Can you remove the items in such a way that you and your friend are carrying the same number of items?
+# Hint: What function do we use to figure out the size of a set? Can you write an if statement that checks which picnic basket has more items and remove the item from that picnic basket?
+
+
+# The code below is to help you get started:
+
+your_basket = {
+    "apples",
+    "crackers",
+    "bread",
+    "carrots",
+    "peanut butter",
+    "lettuce",
+    "tomato",
+    "turkey",
+    "juice"
+}
+
+friends_basket = {
+    "bread",
+    "apples",
+    "grapes",
+    "cheese",
+    "ketchup",
+    "mustard",
+    "water",
+    "crackers"
+}
+
+# create a set duplicates that has the items that are in both baskets
+duplicates = {'crackers'}
+duplicates1 = {'apple', 'bread'}
+print("These are the duplicate items:",duplicates,duplicates1)
+
+# print the set duplicates
+for i in duplicates:
+  if i in friends_basket:
+    friends_basket.remove(i) 
+
+for i in duplicates1:
+  if i in your_basket:
+    your_basket.remove(i) 
+print(your_basket)
+print(friends_basket)
+print(your_basket)
