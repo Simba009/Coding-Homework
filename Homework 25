@@ -1,0 +1,22 @@
+# Build three equal dicts with at least two items...
+
+# using written syntax
+# from keyword arguments
+# from an iterable
+e1 = {1:'one',2:'two',3:'three'}
+e2 = dict([(1,'one'),(2,'two'),(3,'three')])
+e3 = [(1,'one'),(2,'two')]
+
+# Build a list that has five elements:
+# The first element is a string with 3 letters
+# The second element is a tuple with 2 elements
+# The third element is a set with 3 elements
+# The fourth element is a list with 3 elements, one of which is a tuple.
+# The fifth element is an integer
+lis_ = ['red',('yes','no'),{'hi','bye','be'},['ye','me'('se')],'eee']
+# Describe the following line of code. Write a few sentences that tell me about what the following line of code does.
+example_object = ([1,2,3],[4,[5],{6,7}],{8,9,(10,(11,12)),(13,14)})
+the following code is making an tuple. This tuple has 3 elements. The first element in the tuple is a list. It contains 3 integers: 1,2, and 3. 
+The next element is another list which contains one integer, 4 and a list that cointains one integer,5.Then there is a set which contains two intgers, 6 and 7.
+Then the last element is a set which contains 2 integers 8 and 9 and contains 2 tuples, the first tuple contains 10 and another tuple, that tuple contains 2 intgers, 11 and 12. Then the last tuple contains 13 and 14.
+
