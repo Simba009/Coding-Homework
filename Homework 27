@@ -1,0 +1,24 @@
+
+sample_dict = {
+  0:"zero",
+  "1":"one",
+  2:"two",
+  "three":"three"
+}
+
+1. Describe sample_dict. Sample dict is a dctionary that has 4 elements. The first elemtent is key 0 and the value of that key is "zero"
+The second element is the key "1" and the value is "one"
+The third element is the key 2 and the value is "two"
+The fourth element is the key "three" and the value is also "three"
+
+2. Does each line of code below add or update an element in sample_dict? How do you know?
+sample_dict[0] = "still zero"
+sample_dict[1] = "still one"
+sample_dict[2] = "still two"
+sample_dict[3] = "still three"
+It does because it is different from the perivious ones and it adds still to it. 
+
+Run the above lines of code for questions 3-5.
+3. Use a safe method (no error) to get the value "one" from sample_dict. sample_dict.get("one")
+4. Use a safe method (no error) to find the value from sample_dict with a key 2.sample_dict.get(2)
+5. Use a safe method (no error) to find the value from sample_dict with a key 5.sample_dict.get(5)
