@@ -1,0 +1,43 @@
+website = {
+    'url': "https://www.reddit.com/",
+    'name': "Reddit",
+    'descr': "the front page of the internet",
+    'year_founded': 2005,
+    'num_users': 430000000,
+}
+
+2. You decide to rename your website and migrate to a new URL. Update your website with the new details.
+# TODO: fill in the new details
+new_details = {
+    'name': "Bookface",
+    'url': "https://the-cs.org/",
+}
+website.update(new_details)
+# TODO: update your website
+
+3. Write a line of code that does each of the following:
+a. A safe method that prints the value in your website where the key is 'url', if it exists
+website.get('url')
+b. A safe method to get the value of 2005 in your website
+website.get(2005)
+4. Challenge question (OPTIONAL): In our last lesson you asked if there was a way to print a value from a dictionary if we know the value but not the key. For example, in our sample_dict from last homework:
+sample_dict = {
+  0:"zero",
+  "1":"one",
+  2:"two",
+  "three":"three"
+}
+sample_dict[1] = "still one" 
+sample_dict[2] = "still two"
+sample_dict[3] = "still three"
+
+We did the following to print the value "one":
+Use a safe method (no error) to get the value "one" from sample_dict.
+print(sample_dict.get("1"))
+
+How do we print the value "one" without manually putting the key "1" in our code?
+Here's a hint, we can use for loops to loop through dictionaries! Run the following lines of code and observe what the console prints out:
+for k, v in sample_dict.items():
+    print(k,v)
+
+Can you change the above lines of code to print the key and value only if your value is "one"? HINT: try putting an if statement 
