@@ -1,0 +1,34 @@
+1. car = {
+  "make": "Tesla",
+  "model": "Model Y",
+  "year": 2020,
+  "color": "silver",
+  "driver": "Kiera P.",
+  "passengers": 2
+}
+# TODO: delete the passengers key using a safe method.
+car.get('passengeres')
+
+2. car = {
+  "make": "Tesla",
+  "model": "Model Y",
+  "year": 2020,
+  "color": "silver",
+  "driver": "Kiera P.",
+  "passengers": 2
+}
+# TODO: clear the whole dictionary.
+car.clear()
+
+3. car = {
+  "make": "Tesla",
+  "model": "Model Y",
+  "year": 2020,
+  "color": "silver",
+  "driver": "Kiera P.",
+  "passengers": 2
+}
+# TODO: use a for loop to get the key with value of 2020.
+#for k, v in car.items():
+  #if(v == 2000):
+    #print(k)
