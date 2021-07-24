@@ -1,0 +1,29 @@
+1. Are dictionaries ordered or unordered? Why?
+Dictionaries are ordered because they are the same as when they are inputed. 
+
+2. Create a function to add items to a dictionary. Create a new dictionary called prices and use the function you created to add these values (or any values you want) in your prices dictionary:
+
+prices = {
+   "banana": 4,
+   "apple": 2,
+   "orange": 1.5,
+   "pear": 3
+}
+
+def add_pricess(x,y,z): 
+  x[y] = x.get(y, 0) + z
+
+pricess = {} 
+add_pricess(pricess, 'banana', 1)
+add_pricess(pricess, 'apple', 10)
+add_pricess(pricess, 'orange', 100)
+add_pricess(pricess, 'pear', 1000)
+print(pricess)
+
+
+3. Loop through the prices dictionary. Compute and print the total price and the average price of all the fruits. 
+t = 0
+for i in pricess.values():
+  t = t + i
+print('the total is', t)
+print('the avarage is', t/len(pricess))
