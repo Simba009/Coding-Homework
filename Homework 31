@@ -1,0 +1,54 @@
+
+All four questions involve the following dictionaries: 
+
+a = {
+  "name": "Alice",
+  "homework": [100.0, 92.0, 98.0, 100.0],
+  "quizzes": [82.0, 83.0],
+  "tests": [89.0, 97.0]
+}
+ 
+ b = {
+  "name": "Bob",
+  "homework": [0.0, 87.0, 75.0, 22.0],
+  "quizzes": [0.0, 78.0],
+  "tests": [100.0, 100.0]
+}
+ 
+ c = {
+  "name": "Cathy",
+  "homework": [90.0,97.0,75.0,92.0],
+  "quizzes": [88.0,40.0,94.0],
+  "tests": [75.0,90.0]
+}
+
+1. Create a function to print the names of students in each of the dictionaries.
+t = 0
+def add(x):
+ for b in x.values():
+    b += t
+ print(t)
+2. Create a function to print the scores obtained in tests by Alice.
+
+def printscore(x):
+  for i in x():
+    print(x["tests"])
+    
+printscore(a)
+3. Create a function to print the scores obtained in quizzes by Bob.
+
+def printscoreq(x):
+  for i in x():
+    print(x["quizzes"])
+    
+printscoreq(b)
+
+4. Create a function to print the sum of the scores obtained in homework by Cathy.
+
+def printscoreh(x):
+  for i in x():
+    print(x["homework"])
+    
+printscoreh(c)
+
+Note: Try to do this using for loops and if statements!
