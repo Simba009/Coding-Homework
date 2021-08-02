@@ -1,0 +1,19 @@
+
+1) Create a dictionary with 3 items. The keys should be your hobbies and the values should be a list of the number of hours each day you spend on them. Here is an example (but please create your own dictionary):
+hobbies = {
+       "eating" : [2, 2, 2, 2, 2, 0, 0],
+       "reading" : [1, 2, 3, 2, 2, 1, 3],
+       "sleeping": [12, 11, 12, 12, 10, 10, 11]
+}
+
+2) Loop through each of the arrays in the dictionary to find the hobby you spend the most amount of time on each week. 
+#for i in hobbies.values():
+  #t += hobbies["sleeping"][index]
+  #index += 1
+#print(t)
+
+3) Think back to the factorial example we did the other day. 
+     a) Fill in the answer for 4! in the format shown below. 
+      6! = 6 x 5!
+      5! = 5 x 4!
+      4! = 4 x 3!
